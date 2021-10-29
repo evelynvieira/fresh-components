@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "jest"
   },
   "author": "",
@@ -18,6 +19,7 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.1",
     "@types/react": "^17.0.30",
@@ -25,6 +27,6 @@
     "eslint": "^8.0.1",
     "jest": "^27.3.1",
     "rollup": "^2.58.0",
-    "storybook": "^6.3.12" 
+    "storybook": "^6.3.12"
   }
 }
